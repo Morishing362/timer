@@ -6,3 +6,5 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 add_executable(timer main.cc)
+
+install(TARGETS timer RUNTIME DESTINATION bin)
